@@ -45,7 +45,7 @@ class Stone_board:
     self.show_parents()
     if self.hex_win(Cell.b): print('!!! game over: black wins')
     if self.hex_win(Cell.w): print('!!! game over: white wins')
-    #self.print()
+    self.print()
 
   def hex_win(self, cell_color):
      if self.game_type != Game.hex_game: 
